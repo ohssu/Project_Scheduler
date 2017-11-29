@@ -1,0 +1,5 @@
+#add_button{position: absolute; top:42%; left:48%;}
+button {background-color: rgba( 255, 255, 255, 0.5 ); width: 200px; height: 100px; 
+        color: black; border: 2px solid black;}
+button:active{color: white; background: black; border-style: none;}
+button:focus {outline: none;}

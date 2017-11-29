@@ -1,0 +1,17 @@
+body {display: table-cell; width: 1080px; font-size: 25px;}
+#sign {
+    position:absolute; top:40%; left: 34%;
+    background-color:black; opacity: 0.8;
+    width: 500px; height: 200px;
+    display: table-cell; margin: auto;
+    vertical-align: middle; text-align: center;
+}
+#team {background-color: white; margin:12px; width:45%; height: 170px; float: right; vertical-align: middle;}
+#team:hover{color:crimson;}
+
+#personal {background-color: white; margin:12px; width:45%; height:170px; display: line; vertical-align: middle;}
+#personal:hover{color:crimson;}
+img {margin-top: 10px;}
+
+
+.content {position: relative; top: 20%;}

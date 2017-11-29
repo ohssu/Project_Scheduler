@@ -1,0 +1,22 @@
+body {color: white; width: 1080px; height: 600px; display: table-cell;}
+#team_container {background: black; opacity: 0.8; width:500px; 
+                     height: 320px; position: relative; left:50%; top:30%;}
+
+h3{position: relative; top:20px; left:210px;}
+form{height: 400px;}
+input:focus::-webkit-input-placeholder {color: white;}
+
+#userId {position: relative; top:20px;}
+#userId > input {position: relative; left: 30px; width: 197px; height: 20px;}
+#userId > button {position: relative; left: 65px;}
+
+#userPw {position: relative; top:20px;}
+#userPw > input {position: relative; left: 30px; width: 197px; height: 20px;margin-top: 20px;}
+#userPw > label {position: relative; left: 63px; font-size: 10px;}
+
+#userEmail {position: relative; top:20px;}
+#userEmail > input {position: relative; left: 30px; width: 197px; height: 20px; margin-top: 20px;}
+
+#submit {position: relative; top:40px;}
+#submit > input {position: relative; left: 30px; width: 200px; margin-right: 30px;}
+.type_button{width: 200px;margin:15px; float:left; position: relative; left:10px; top:40px;}

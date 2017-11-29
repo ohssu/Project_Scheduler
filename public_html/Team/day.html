@@ -1,0 +1,99 @@
+<!--Team-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="../css/daycss.css">
+        <link type="text/css" rel="stylesheet" href="../css/maincss.css">
+        <script src="../js/day_js.js"></script>
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="../js/main_js.js"></script>
+        <!--아이콘을 위한 link 이거 빼면 아이콘 없어짐-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <div id="logo">
+                    <a href="home.html"><img src="../images/1.jpg" style="width: 50px; height: 50px;"></a>
+                </div>
+                <div id="header_menu">
+                        <a href="#"><i class="material-icons">face</i></a>
+                        <a id="alramIcon"><i class="material-icons">notifications</i></a>
+                        <a href="#"><i class="material-icons">settings</i></a>
+                </div>
+                <div id="alram" style="display: none;">
+                    <div id="a_header"></div>
+                    <div id="a_container"></div>
+                    </div>
+            </header>
+            <nav>
+            <div id="nav_content">
+                <span>
+                    <i class="fa fa-home"></i>
+                    <a href="home.html">홈</a>
+                </span>
+                <span>
+                    <i class="fa fa-clipboard"></i>
+                    <a href="member.html">회원 관리</a>
+                </span>
+                   
+                <div>
+                    <span id="sch">
+                        <i class="fa fa-calendar"></i>
+                        <a href="month.html">일정</a>
+                    </span>
+                        <ul>
+                            <li>
+                                <i class="fa fa-angle-right"></i>
+                                <a href="month.html">월간</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-right"></i>
+                                <a href="week.html">주간</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-right"></i>
+                                <a href="day.html">일간</a>
+                            </li>
+                        </ul>
+                </div>
+                <span>
+                    <i class="fa fa-file-text-o"></i>
+                    <a href="memo.html">메모</a>
+                </span>
+                <span>
+                    <i class="fa fa-comments-o"></i>
+                    <a href="chat.html">채팅</a>
+                </span>
+            </div>
+           </nav>
+            <article>
+                <div id="day_container">
+                    <script>
+                        window.onload = function() {
+                            DayMaker('day_container','22');
+                        };
+                    </script>
+                </div>
+            </article>
+            <footer>
+                
+            </footer>
+        </div>
+            <script>
+            function alramDisplay(){
+                var alramDiv = document.getElementById('alram');
+                var st = alramDiv.style.display;
+                if (st === "none"){
+                    alramDiv.style.display = "block";
+                }else if(st === "block"){
+                    alramDiv.style.display = "none";
+                }
+            }
+        </script>
+    </body>
+   
+</html>

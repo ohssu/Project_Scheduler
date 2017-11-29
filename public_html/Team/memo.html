@@ -1,0 +1,87 @@
+<!--Team-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="../css/maincss.css">
+        <link type="text/css" rel="stylesheet" href="../css/memocss.css">
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="../js/main_js.js"></script>
+        <!--아이콘을 위한 link 이거 빼면 아이콘 없어짐-->        
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <div id="logo">
+                    <a href="home.html"><img src="../images/1.jpg" style="width: 50px; height: 50px;"></a>
+                </div>
+                <div id="share"> 
+                </div>
+                <div id="header_menu">
+                    <a href="#"><i class="material-icons">face</i></a>
+                    <a id="alramIcon"><i class="material-icons">notifications</i></a>
+                    <a href="#"><i class="material-icons">settings</i></a>
+                </div>
+                <div id="alram" style="display: none;">
+                    <div id="a_header"></div>
+                    <div id="a_container">
+                </div>
+            </header>
+            <nav>
+            <div id="nav_content">
+                <span>
+                    <i class="fa fa-home"></i>
+                    <a href="home.html">홈</a>
+                </span>
+                <span>
+                    <i class="fa fa-clipboard"></i>
+                    <a href="member.html">회원 관리</a>
+                </span>
+                   
+                <div>
+                    <span id="sch">
+                        <i class="fa fa-calendar"></i>
+                        <a href="month.html">일정</a>
+                    </span>
+                        <ul>
+                            <li>
+                                <i class="fa fa-angle-right"></i>
+                                <a href="month.html">월간</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-right"></i>
+                                <a href="week.html">주간</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-right"></i>
+                                <a href="day.html">일간</a>
+                            </li>
+                        </ul>
+                </div>
+                <span>
+                    <i class="fa fa-file-text-o"></i>
+                    <a href="memo.html">메모</a>
+                </span>
+                <span>
+                    <i class="fa fa-comments-o"></i>
+                    <a href="chat.html">채팅</a>
+                </span>
+            </div>
+           </nav>
+            <article>
+                <div id="memo_container">
+                    <div id="add_memo_button">
+                        <button onclick="window.open('memo_detail.html','메모 생성','width=500,height=500,location=no,status=no,scrollbars=yes');"><i class="fa fa-plus"> 메모 추가</i></button>
+                    </div>
+                </div>
+            </article>
+            <footer>
+                
+            </footer>
+        </div>
+    </body>
+   
+</html>
